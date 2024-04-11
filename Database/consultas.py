@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 #read the xls file
 df = pd.read_excel('bancos.xls')
 
-usuario = 
+usuario = 'root'
 senha = 
 nome_do_banco = 'banco'
 conexao= f'mysql://{usuario}:{senha}@localhost/{nome_do_banco}'
